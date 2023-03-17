@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const GetRest = () => {
     const [posts, setPosts] = useState([]);
-    const test = 'hello'
+    const test = 'End Of Page'
     useEffect(() => {
         fetch('http://synapse.viewdns.net:8050/api/records/')
             .then((response) => response.json())
