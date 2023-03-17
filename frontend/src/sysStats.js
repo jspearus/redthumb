@@ -90,24 +90,24 @@ const SystemStats = () => {
                 type="radialBar"
                 width={500}
                 height={320} />
-            <Grid container spacing={3}>
+            <Grid container spacing={1}>
                 <Chart
                     options={stateP1.options}
                     series={stateP1.series}
                     type="radialBar"
-                    width={350}
+                    width={200}
                     height={200} />
                 <Chart
                     options={stateP2.options}
                     series={stateP2.series}
                     type="radialBar"
-                    width={350}
+                    width={200}
                     height={200} />
                 <Chart
                     options={stateP3.options}
                     series={stateP3.series}
                     type="radialBar"
-                    width={350}
+                    width={200}
                     height={200} />
             </Grid>
         </>

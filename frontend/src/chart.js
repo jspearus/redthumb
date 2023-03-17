@@ -11,7 +11,7 @@ const MyChart = () => {
                 foreColor: '#ff0000',
             },
             xaxis: {
-                categories: ['1hr', '2hr', '3hr', '4hr', '5hr', '6hr', '7hr', '8hr', '9hr']
+                categories: ['9hr', '8hr', '7hr', '6hr', '5hr', '4hr', '3hr', '2hr', '1hr', '0hr']
             },
             title: {
                 text: 'Plant 1 Water Saturation',
@@ -21,7 +21,7 @@ const MyChart = () => {
         },
         series: [{
             name: 'Water Sat.',
-            data: [30, 40, 35, 50, 49, 60, 70, 91, 80]
+            data: [30, 40, 35, 50, 49, 60, 70, 91, 80, 80]
         }]
     }
     return (
